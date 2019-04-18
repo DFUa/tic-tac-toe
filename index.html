@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header-wrap">
+      <p class="title text">Tic Tac Toe</p>
+    </div>
+    <div class="players-wrap">
+
+      <div class="player">
+        <p id="player1Text" class="text player-text"></p>
+      </div>
+
+      <div class="player">
+        <p id="player2Text" class="text player-text"></p>
+      </div>
+
+    </div>
+
+    <div id="grid" class="grid-wrap hidden">
+      <div class="container">
+        <div class="row grid-row">
+          <div id="cell1" class="grid-cell"></div>
+          <div id="cell2" class="grid-cell grid-cell-ver"></div>
+          <div id="cell3" class="grid-cell"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row grid-row">
+          <div id="cell4" class="grid-cell grid-cell-hor"></div>
+          <div id="cell5" class="grid-cell grid-cell-hor grid-cell-ver"></div>
+          <div id="cell6" class="grid-cell grid-cell-hor"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row grid-row">
+          <div id="cell7" class="grid-cell"></div>
+          <div id="cell8" class="grid-cell grid-cell-ver"></div>
+          <div id="cell9" class="grid-cell"></div>
+        </div>
+      </div>
+    </div>
+    <div id="statusBar" class="status-wrap hidden">
+      <div class="container">
+        <div class="row grid-row">
+          <p id="statusText"></p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row grid-row">
+          <button id="buttonAgain" class="btn btn-secondary status-button" type="button">Restart</button>
+          <button id="buttonNewGame" class="btn btn-secondary status-button" type="button">New Game</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/dojo-config.js"></script>
+  <script src="js/lib/dojo/dojo.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

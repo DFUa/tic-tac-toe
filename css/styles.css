@@ -1,0 +1,116 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  width: auto;
+  min-width: 400px;
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+  height: 120px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 54px;
+  margin: auto 0;
+}
+
+.players-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  height: 80px;
+}
+
+.player {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  margin: auto 20px;
+}
+
+.player-text {
+  position: absolute;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.grid-wrap {
+  padding-top: 20px;
+  width: auto;
+  height: auto;
+  min-width: 400px;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.grid-cell {
+  width: 120px;
+  height: 120px;
+  font-weight: bold;
+  font-size: 64px;
+  color: grey;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.grid-cell-ver {
+  border-right: #000 5px solid;
+  border-left: #000 5px solid;
+}
+
+.grid-cell-hor {
+  border-top: #000 5px solid;
+  border-bottom: #000 5px solid;
+}
+
+.grid-cell-hover {
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.status-wrap {
+  width: auto;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#statusText {
+  font-size: 30px;
+}
+
+.status-button {
+  min-width: 140px;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.show {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
